@@ -58,19 +58,11 @@ Detailed Description
 
 To train the PosTagger which is used for English pos tagging 
 
-	train(self, corpus: PosTaggedCorpus)
-	
-To save the trained PosTagger model
-
-	saveModel(self)
-	
-To load an already trained PosTagger model
-
-	loadModel(self)
-	
+	train(corpus: PosTaggedCorpus): void;
+		
 To tag a sentence, using a newly trained or loaded PosTagger model
 
-	posTag(self, sentence: Sentence) -> Sentence
+	posTag(sentence: Sentence): Sentence;
 	
 3 different PosTagger models are supported: The one that is used to tag the sentences with a random tag
 
