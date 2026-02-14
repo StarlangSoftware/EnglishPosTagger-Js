@@ -1,6 +1,0 @@
-export * from "./dist/DummyPosTagger"
-export * from "./dist/HmmPosTagger"
-export * from "./dist/NaivePosTagger"
-export * from "./dist/PosTaggedCorpus"
-export * from "./dist/PosTaggedWord"
-export * from "./dist/PosTagger"
